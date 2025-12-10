@@ -6,7 +6,7 @@ KEN_MIX = {
 		fillpercent = 0,
 		checked = false,
 		slots_nb = 4,
-		frame_delay = 0,
+		frame_delay = 100,
 		autoblock = -1,
 		mission_text = "",
 		func = function() KEN_MIX.checked = not KEN_MIX.checked end,
@@ -190,3 +190,4 @@ HONDA_SUP_B = {
 		end,
 }
 table.insert(missions_list["boxer"], HONDA_SUP_B)
+--END
